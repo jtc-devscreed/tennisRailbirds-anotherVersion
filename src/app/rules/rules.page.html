@@ -27,16 +27,17 @@
 
 <ion-content color="dark">
   <div>
-    <ion-card *ngFor="let article of articles" style="--ion-background-color: #008c91;">
+    <ion-card *ngFor="let article of articles" style=" --ion-background-color: #008c91;">
       <ion-card-content>
         <div class="img-wrapper" >
-          <h1 class="h1"> "{{article.title}}" </h1>
+          <h1 class="h1"> {{article.title}} </h1>
           <ion-img style="width=100%">
-            <h1> "{{article.img}}" </h1> </ion-img>          
-          <h2> "{{article.desc1}}" </h2>
+            <h1> {{article.img}} </h1> </ion-img>          
+          <h2> {{article.desc1}} </h2>
           <p> <br> </p>
-          <h2> "{{article.desc2}}" </h2>
-          <p> <br> Photo Credit to: "{{article.owner}}" </p>
+          <h2> {{article.desc2}} </h2>
+          <br>
+          <p> Credit to: rulesofsport</p>
         </div>
         
         <!-- <ion-card-header>

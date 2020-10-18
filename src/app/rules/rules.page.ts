@@ -13,8 +13,8 @@ export class RulesPage implements OnInit {
       "title": "Follow the Rules!",
       "desc1": "Just the basics and nothing more. If you have any wonderful, new or better yet a sort of a revolutionary idea, please just keep to yourself, 'will yah? I am not at know it all, hope you are not one too.",
       "desc2": "This is just for the sole purpose of giving an simple insight so you or some other folks out there whom are willing that somehow they might be able to get a glimpse of how this awesome game is played. Cheers! ^_^",
-      "owner": "Matthew Turner",
-      "img": "/assets/images/rules.webp",
+      "owner": "Joshua Miranda",
+      "img": "assets/images/rules.jpeg"
     },
     { 
       "id": 2,
@@ -95,7 +95,9 @@ export class RulesPage implements OnInit {
     },
   ];
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }
