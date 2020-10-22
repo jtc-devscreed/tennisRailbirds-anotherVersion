@@ -1,12 +1,12 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "retroTennis",
+  "appId": "io.ionic.tennisrailbirds",
+  "appName": "Tennis Railbirds",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
   "plugins": {
     "SplashScreen": {
-      "launchShowDuration": 0
+      "launchShowDuration": 3000
     }
   },
   "cordova": {}
